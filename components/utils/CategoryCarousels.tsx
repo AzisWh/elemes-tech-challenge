@@ -26,7 +26,7 @@ export const CategoryCarousels = () => {
         id="content"
         className="carousel p-4 flex items-center justify-start overflow-x-auto scrollbar-hide ">
         <div className="flex">
-          {CardContent.map((content: any) => (
+          {CardContent.map((content) => (
             <CardCategory
               key={content.id}
               image={content.image}

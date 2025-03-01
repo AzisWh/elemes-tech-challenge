@@ -2,7 +2,6 @@
 import React from 'react';
 import heropizza from '@/public/image/hero-circle.svg';
 import Image from 'next/image';
-import logo from '@/public/image/logo.svg';
 import { Button } from './utils/Button';
 
 export const Hero = () => {

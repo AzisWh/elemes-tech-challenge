@@ -1,8 +1,6 @@
 'use client';
 import React, { useEffect, useState } from 'react';
-import { Logo } from './Logo';
 import logo from '@/public/image/logo.svg';
-import herobg from '@/public/image/herobg.svg';
 import Image from 'next/image';
 import { Button } from '../utils/Button';
 

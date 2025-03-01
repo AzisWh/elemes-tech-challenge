@@ -1,8 +1,5 @@
 'use client';
 import { useEffect } from 'react';
-import type { Metadata } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
-import { Navbar } from '@/components/ui/Navbar';
 import { Footer } from '@/components/ui/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';

@@ -1,4 +1,3 @@
-import React from 'react';
 import cupcake from '@/public/image/category/cupcake.svg';
 import pizza from '@/public/image/category/pizza.svg';
 import doughnut from '@/public/image/category/doughnut.svg';

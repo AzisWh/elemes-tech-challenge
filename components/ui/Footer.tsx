@@ -1,5 +1,5 @@
 'use client';
-import React, { useState } from 'react';
+import React from 'react';
 import logo from '@/public/image/logo.svg';
 import Image from 'next/image';
 import email from '@/public/image/icon-mail.svg';
@@ -8,11 +8,6 @@ import phone from '@/public/image/icon-telf.svg';
 import hamburger from '@/public/image/hamburger.svg';
 
 export const Footer = () => {
-  const [openMenu, setOpenMenu] = useState({
-    categories: false,
-    about: false,
-    newsletter: false,
-  });
   return (
     <section data-aos="fade-up">
       <div className="block md:hidden px-6 pt-16 pb-4">
